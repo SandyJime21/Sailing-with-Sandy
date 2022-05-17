@@ -1,0 +1,274 @@
+/******************All Pages ******************/
+
+.headerContainer {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.fdHeaderSpan {
+    color: rgb(131, 54, 86);
+    font-size: xx-large;
+}
+
+.leftLinePic {
+    opacity: 55%;
+    height: 150px;
+    display: inline;
+    width: 100%;
+}
+
+.rightLinePic {
+    opacity: 55%;
+    height: 150px;
+    display: inline;
+    width: 100%;
+}
+
+.Column1 {
+    display: flex;
+    padding: 10px;
+    line-height: 40px;
+}
+
+.Column2 {
+    display: flex;
+    padding: 10px;
+    line-height: 40px;
+}
+
+.Column3 {
+    display: flex;
+    padding: 10px;
+    line-height: 40px;
+}
+
+.Column4 {
+    display: flex;
+    padding: 10px;
+    line-height: 40px;
+}
+
+.Column5 {
+    display: flex;
+    padding: 10px;
+    line-height: 40px;
+}
+
+.Row1 {
+    border: solid 1px rgb(131, 54, 86);
+    float: left;
+    width: 50%;
+    padding: 5px;
+    margin: 35px;
+}
+
+.Row2 {
+    border: solid 1px rgb(131, 54, 86);
+    float: left;
+    width: 50%;
+    padding: 5px;
+    margin: 35px;
+}
+
+.Row3 {
+    border: solid 1px rgb(131, 54, 86);
+    float: left;
+    width: 50%;
+    padding: 5px;
+    margin: 35px;
+}
+
+.Row4 {
+    border: solid 1px rgb(131, 54, 86);
+    float: left;
+    width: 50%;
+    padding: 5px;
+    margin: 35px;
+}
+
+.Row5 {
+    border: solid 1px rgb(131, 54, 86);
+    float: left;
+    width: 50%;
+    padding: 5px;
+    margin: 45px;
+}
+
+.Top3 {
+    display: flex;
+    padding: 5px;
+}
+
+.TopPics {
+    display: flex;
+    width: 400px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.Top3Header {
+    font-size: larger;
+    text-decoration: underline;
+    word-spacing: normal;
+    font-style: italic;
+    color: rgb(131, 54, 86);
+}
+
+.Top3Row {
+    display: flex;
+    border: solid 1px rgb(131, 54, 86);
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.h3Headers {
+    text-decoration: underline;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+figcaption {
+    font-size: large;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.imgContainer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.Header {
+    word-spacing: normal;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    line-height: 2px;
+    display: inline;
+}
+
+
+/******************Only Food and Drinks Page******************/
+
+.andfdHeaderSpan {
+    color: rgb(131, 54, 86);
+    font-size: large;
+}
+
+.FoodnDrinksPageHeader {
+    height: 155px;
+    width: 40%;
+    border: 1px solid rgb(131, 54, 86);
+    background: url("/Media/food\ n\ drink\ icon.png") no-repeat center;
+    background-size: 155px;
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    display: inline;
+    padding: 5px 5px;
+}
+
+.FoodPics {
+    display: flex;
+    width: 100%;
+    min-width: none;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+/******************Only Beaches Page******************/
+
+.BeachesPageHeader {
+    height: 155px;
+    width: 40%;
+    border: 1px solid rgb(131, 54, 86);
+    background: url("/Media/beach\ icon.png") no-repeat center;
+    background-size: 175px;
+    color: black;
+    font-size: x-large;
+    display: inline;
+    padding: 2px 2px;
+}
+
+.beachPics {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+
+/******************Only Cities Page******************/
+
+.CitiesHeader {
+    height: 155px;
+    width: 40%;
+    border: 1px solid rgb(131, 54, 86);
+    background: url("/Media/Cities\ icon.png") no-repeat center;
+    background-size: 175px;
+    color: black;
+    font-size: x-large;
+    display: inline;
+    padding: 5px 5px;
+}
+
+.CityPics {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+
+/******************Only Adventure Page******************/
+
+.AdventureHeader {
+    height: 155px;
+    width: 40%;
+    border: 1px solid rgb(131, 54, 86);
+    background: url("/Media/adventure\ icon.png") no-repeat center;
+    background-size: 175px;
+    color: black;
+    font-size: x-large;
+    display: inline;
+    padding: 5px 5px;
+    margin: 0 auto;
+}
+
+.AdventurePics {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+
+/******************Only History Page******************/
+
+.HistoryHeader {
+    height: 155px;
+    width: 40%;
+    border: 1px solid rgb(131, 54, 86);
+    background: url("/Media/History\ icon.png") no-repeat center;
+    background-size: 175px;
+    color: black;
+    font-size: x-large;
+    display: inline;
+    padding: 5px 5px;
+}
+
+.HistoryPics {
+    display: flex;
+    width: 100%;
+    min-width: none;
+    height: auto;
+    vertical-align: middle;
+}

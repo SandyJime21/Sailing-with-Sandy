@@ -1,0 +1,53 @@
+.Itinerarytitle {
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(131, 54, 86);
+    margin: 30px auto;
+    margin-bottom: 50px;
+    padding: 5px 5px;
+    text-decoration: underline;
+}
+
+button {
+    background-color: rgb(209, 148, 185);
+}
+
+.mapdiv {
+    margin: 0 auto;
+    overflow: scroll;
+    width: 90%;
+}
+
+.footerItinerary {
+    line-height: 100px;
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(131, 54, 86);
+}
+
+.VisitedCitiesP {
+    width: 90%;
+    border-radius: 10%;
+    padding: 25px;
+    border: solid 1px rgb(131, 54, 86);
+    font-weight: bolder;
+    font-size: x-large;
+    line-height: 30px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.VisitedCitiesP a {
+    color: black;
+}
+
+.VisitedCitiesSpan {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(131, 54, 86);
+}
+
+.journeyNumbers {
+    font-weight: bolder;
+    font-size: larger;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="/CSS/Home-StyleSheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/Itinerary-StyleSheet.css">
+    <link rel=" icon " href="/Media/favicon.ico?=3">
+    <title>Sailing With Sandy My Itinerary</title>
+</head>
+
+<header>
+    <div class="nav">
+
+        <nav style="list-style: none;">
+            <li><a href="/HTML/index.html" style="text-decoration: none;">Home</a></li>
+            <li class="current"><a href="/HTML/Itinerary.html" style="text-decoration: none;">Itinerary</a></li>
+            <li><a href="/HTML/myTop5.html" style="text-decoration: none;" class="top5header">My Top 5</a></li>
+            <li><a href="/HTML/Tips.html" style="text-decoration: none;">Tips</a></li>
+
+            <div class="dropdown">
+                <button class="dropbtn">Pages</button>
+                <div class="dropdowncontent">
+                    <li> <a href="/HTML/Food and Drinks.html">Food and Drinks</a></li>
+                    <li> <a href="/HTML/Beaches.html">Beaches</a></li>
+                    <li> <a href="/HTML/Cities.html">Destinations</a></li>
+                    <li> <a href="/HTML/Adventures.html">Adventure</a></li>
+                    <li> <a href="/HTML/History.html">History</a></li>
+                </div>
+            </div>
+        </nav>
+        <hr>
+    </div>
+</header>
+
+<div class="header">
+    <img class="anchor" src="/Media/anchor.png">
+    <h1 class="sandy"><span id="s">S</span>ailing <span id="with" class="with">with</span> <span id="s">S</span>andy</h1>
+</div>
+
+<body>
+    <h2 class="Itinerarytitle">My Itinerary</h2>
+
+    <div class="mapdiv">
+        <img src="/Media/world-map.png" class="map" id="map" alt="My Itinerary">
+    </div>
+
+    <button type="button" onclick="zoomin()">
+        Zoom-In
+    </button>
+
+    <button type="button" onclick="zoomout()"> 
+        Zoom-Out
+    </button>
+
+    <!---Javascript Zoom in Zoom out for Map--->
+    <script type="text/javascript">
+        function zoomin() {
+            var GFG = document.getElementById("map");
+            var currWidth = GFG.clientWidth;
+            GFG.style.width = (currWidth + 125) + "px";
+        }
+
+        function zoomout() {
+            var GFG = document.getElementById("map");
+            var currWidth = GFG.clientWidth;
+            GFG.style.width = (currWidth - 100) + "px";
+        }
+    </script>
+
+    <footer>
+        <h3 class="footerItinerary" style="word-spacing: normal;">Vistited Cities</h3>
+    </footer>
+
+    <div class="VisitedCitiesP">
+        <a href="/html/Cities.html" style="text-decoration: none;">
+            <p>My <span class="journeyNumbers">first</span> trip was to <span class="VisitedCitiesSpan">Alaska</span>. Flying from <span class="VisitedCitiesSpan">Los Angeles, CA </span>to <span class="VisitedCitiesSpan">Seattle, WA</span>. Where I was left
+                short for words with sights of nature I had never encountered. A seven-day cruise including destinations like: <span class="VisitedCitiesSpan">Seattle</span>, <span class="VisitedCitiesSpan">Juneau, Skagway, Ketchikan, Victoria, Vancouver</span>.
+            </p>
+            <p>Later I was sent on my <span class="journeyNumbers">Second</span> Assignment aboard a vessel in <span class="VisitedCitiesSpan">Europe</span>. Having flown from <span class="VisitedCitiesSpan">Mexico City</span> to <span class="VisitedCitiesSpan">Munich, Germany</span>.
+                I finally boarded my ship in <span class="VisitedCitiesSpan">Dubrovnik, Croatia</span>. I was truly astonished with all the beauty this country had to offer. It was a true feeling of being in <span class="VisitedCitiesSpan">Europe</span>.
+                Hitting ports like: <span class="VisitedCitiesSpan">Greece, Spain, France, Monaco, Malta, United Kingdom, Italy, Monte Negro, Croatia, Sicily and Turkey.</span></p>
+            <p><span class="journeyNumbers">Third</span> Journey was when I decided to move to <span class="VisitedCitiesSpan">Aguascalientes, Mexico</span> for a few years. This is where I visited beautiful states like: <span class="VisitedCitiesSpan">Tamaulipas, Zacatecas, San Luis, Jalisco, Michoacan, Baja California Sur, Mexico City, Quintana Roo, Ixtapa, Guanajuato, Oaxaca, Guadalajara, and
+                Zacatecas.</span>
+            </p>
+            <p>Returning back to work was my <span class="journeyNumbers">fourth</span> trip to the <span class="VisitedCitiesSpan">Caribbean</span> where I saw nothing less than true paradise. My ports included: <span class="VisitedCitiesSpan">St. Martin, St. Lucia, Curacao, Antigua, Aruba, Colombia, Barbados, Costa Rica, Panamá, Nassau, Bahamas, Nicaragua, Honduras, Belize, Guatemala, and Cayman Islands.</span></p>
+            <p>Finally ending my five-year journey with my <span class="journeyNumbers">fifth</span> journey. I visited <span class="VisitedCitiesSpan">Australia, New Zealand, Milford Sound, Dusky Sound, Nuku Island, Noumea Island, Lifou Mare, Isle of Pines, Pago Pago, Mystery Islands,
+                New Caledonia, Solomon, Vanuatu, Papua New Guinea, Loyalty Islands,</span> which in my opinion are the most beautiful islands I have ever seen. Nothing short of beauty sailing to the north where we dipped our toes into: <span class="VisitedCitiesSpan">Bora Bora, American
+                Samoa, Cook Islands, Moorea, Tahiti,</span> and Finally ending in <span class="VisitedCitiesSpan">Hawaii.</span></p>
+        </a>
+    </div><br>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/sandra-jimenez-949a31204/ " target="_blank " id="linked">
+            <img src="/Media/LinkIn.png" alt="LinkedIn" title="LinkedIn" class="footericon"></a>
+        <a href="https://github.com/SandyJime21 " target="_blank" id="git">
+            <img src="/Media/github.png" alt="GitHub" title="Github" class="footericon"></a>
+        <a href="https://www.instagram.com/sandy_cake21 " target="_blank" id="insta">
+            <img src="/Media/instagram.png" alt="Instagram" title="Instagram" class="footericon"></a>
+    </footer>
+
+</body>
+
+</html>

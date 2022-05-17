@@ -1,0 +1,79 @@
+.main {}
+
+.TipsColumn {
+    display: flex;
+    padding: 25px;
+}
+
+.tipsRow {
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px black;
+}
+
+.TipsColumn2 {
+    display: flex;
+    padding: 25px;
+}
+
+.tipsRow2 {
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    margin: 30px;
+    border: solid 1px rgb(131, 54, 86);
+}
+
+.icon-header {
+    display: inline-flex;
+}
+
+.tipsHeader {
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(131, 54, 86);
+    display: inline;
+    margin-top: 30px;
+}
+
+.tipsPics {
+    position: relative;
+    padding: 10px 10px;
+    float: right;
+    height: 75px;
+}
+
+.nums {
+    font-weight: bolder;
+    color: rgb(131, 54, 86);
+}
+
+ol {
+    padding: 5px;
+    font-weight: bold;
+    font-size: larger;
+    line-height: 30px;
+    text-align: justify;
+    margin: 20px 25px;
+}
+
+.footer {
+    position: relative;
+    text-align: center;
+}
+
+h2 {
+    font-size: 80px;
+    color: black;
+    position: absolute;
+    top: 25%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+.travelPic {
+    height: 450px;
+}

@@ -1,0 +1,59 @@
+table {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.top5Row {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.top5Column {
+    display: flex;
+}
+
+.top5title {
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(131, 54, 86);
+    padding: 15px;
+    margin: 30px;
+    text-decoration: underline;
+}
+
+.top5Header {
+    width: 100%;
+    background-color: rgb(209, 148, 185);
+    font-size: x-large;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.topPics {
+    padding: 20px;
+    width: 100%;
+    height: 450px;
+}
+
+.topPics2 {
+    padding: 25px;
+    width: 100%;
+    height: 700px;
+}
+
+.LocationDescription {
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(131, 54, 86);
+}
+
+p {
+    padding: 5px;
+    font-weight: bold;
+    font-size: larger;
+    line-height: 30px;
+    text-align: justify;
+    margin: 20px 25px;
+}

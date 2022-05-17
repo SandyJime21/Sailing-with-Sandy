@@ -164,7 +164,7 @@ figcaption {
     height: 155px;
     width: 40%;
     border: 1px solid rgb(131, 54, 86);
-    background: url("/Media/food\ n\ drink\ icon.png") no-repeat center;
+    background: url("food\ n\ drink\ icon.png") no-repeat center;
     background-size: 155px;
     color: black;
     font-size: x-large;
@@ -188,7 +188,7 @@ figcaption {
     height: 155px;
     width: 40%;
     border: 1px solid rgb(131, 54, 86);
-    background: url("/Media/beach\ icon.png") no-repeat center;
+    background: url("beach\ icon.png") no-repeat center;
     background-size: 175px;
     color: black;
     font-size: x-large;
@@ -211,7 +211,7 @@ figcaption {
     height: 155px;
     width: 40%;
     border: 1px solid rgb(131, 54, 86);
-    background: url("/Media/Cities\ icon.png") no-repeat center;
+    background: url("Cities\ icon.png") no-repeat center;
     background-size: 175px;
     color: black;
     font-size: x-large;
@@ -233,7 +233,7 @@ figcaption {
     height: 155px;
     width: 40%;
     border: 1px solid rgb(131, 54, 86);
-    background: url("/Media/adventure\ icon.png") no-repeat center;
+    background: url("adventure\ icon.png") no-repeat center;
     background-size: 175px;
     color: black;
     font-size: x-large;
@@ -257,7 +257,7 @@ figcaption {
     height: 155px;
     width: 40%;
     border: 1px solid rgb(131, 54, 86);
-    background: url("/Media/History\ icon.png") no-repeat center;
+    background: url("History\ icon.png") no-repeat center;
     background-size: 175px;
     color: black;
     font-size: x-large;
